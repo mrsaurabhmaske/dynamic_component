@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.App {
+  height: 100vh;
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+}
+
+.Box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  transition: all 0.5s ease-in-out;
+  box-sizing: content-box;
+}
+
+.InputHandler {
+  margin-top: 10vh;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  position: fixed;
+  bottom: 0;
+}
+
+.InputHandler input {
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5);
+}
